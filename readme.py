@@ -1,0 +1,1 @@
+# This is a sample file to Test commit via Git CLI
