@@ -61,7 +61,7 @@ def main():
             print("Player O is the Winner!!!")
         # Condition to finish the game with a DRAW when there is no more plays/postions available
         if len(available_plays) == 0 and found_winner == False:
-            found_winner == True #There is no winner but set to true to exit the while
+            found_winner = True #There is no winner but set to true to exit the while
             print("It's a DRAW!!!")
         
 
